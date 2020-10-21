@@ -3,6 +3,8 @@ import { IonHeader, IonContent } from '@ionic/react';
 import { Container, Col, Row } from 'react-bootstrap';
 import Navigation from './components/Navigation'
 
+import Splash from './assets/images/splash_screen.png';
+
 export default function Home() {
   return (
     <IonContent>
@@ -13,6 +15,9 @@ export default function Home() {
                     <IonHeader>
                         <h3 className="header__title">About Pockie</h3>
                     </IonHeader>
+                </Row>
+                <Row className="p-3">
+                    <img src={Splash} width="340" alt="Pockie Splash Screen" />
                 </Row>
                 <Row className="p-3">
                     <p>
