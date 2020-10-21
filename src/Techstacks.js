@@ -1,12 +1,12 @@
 import React from 'react';
-import { IonHeader, IonPage } from '@ionic/react';
+import { IonHeader, IonContent } from '@ionic/react';
 import { Container, Col, Row, Card, CardColumns } from 'react-bootstrap';
 import Navigation from './components/Navigation'
 
 
 export default function Techstacks() {
     return (
-        <IonPage>
+        <IonContent>
         <Container fluid>
             <Navigation />
             <Col>
@@ -54,6 +54,6 @@ export default function Techstacks() {
                 </Row>
             </Col>
         </Container>
-        </IonPage>
+        </IonContent>
     );
 }
