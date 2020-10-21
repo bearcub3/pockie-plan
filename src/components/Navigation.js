@@ -17,7 +17,7 @@ function Navigation() {
           <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <IonItem>
-                  <Link to="/">Goal of the final app</Link>
+                  <Link to="/goals">Goal Of The Final app</Link>
                 </IonItem>
                   <NavDropdown title="Personas" id="nav-dropdown">
                       <NavDropdown.Item eventKey="2.1">

@@ -1,18 +1,20 @@
 import React from 'react';
-import { IonHeader, IonPage } from '@ionic/react';
+import { IonHeader, IonContent } from '@ionic/react';
 import { Container, Col, Row } from 'react-bootstrap';
 import Navigation from './components/Navigation'
 
 export default function Home() {
   return (
-    <IonPage>
+    <IonContent>
         <Container fluid>
             <Navigation />
-            <Col>
+            <Col md={{ span: 8, offset: 2 }}>
                 <Row>
                     <IonHeader>
-                        <h3 className="header__title ">About Pockie</h3>
+                        <h3 className="header__title">About Pockie</h3>
                     </IonHeader>
+                </Row>
+                <Row className="p-3">
                     <p>
                         Pokie is a '<b>Personal finance app</b>' which lets users keep
                         up with their expenses and to help them to maintain a
@@ -42,6 +44,6 @@ export default function Home() {
                 </Row>
                 </Col>
             </Container>
-        </IonPage>
+        </IonContent>
   );
 }
