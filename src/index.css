@@ -25,6 +25,7 @@
 * {
   box-sizing: border-box;
   font-family: 'NotoSansRegular', sans-serif;
+  color: #666;
 }
 
 html {
@@ -38,12 +39,25 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  color: #fff;
+  font-family: monospace;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.comment {
+  color: #d6d6d6;
 }
 
 .header__title {
   font-family: PoppinsBold;
   color: #076eda;
   font-size: 2rem;
+}
+
+.column--width {
+  width: 100%;
 }
