@@ -1,0 +1,7 @@
+{
+  "name": "pockie-plan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
