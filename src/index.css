@@ -61,3 +61,31 @@ code {
 .column--width {
   width: 100%;
 }
+
+.mobile__img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid #d6d6d6;
+}
+
+h3 > span {
+  color: #666;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.screen__type {
+  font-weight: bold;
+}
+
+.screen__context {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  width: 90%;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 1.5em;
+}

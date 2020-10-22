@@ -10,7 +10,7 @@ export default function Techstacks() {
         <IonContent>
         <Container fluid>
             <Navigation />
-            <Col md={{ span: 8, offset: 2 }}>
+            <Col md={{ span: 8, offset: 2 }} lg={{ span: 10, offset: 1 }}>
                 <Row>
                     <IonHeader>
                         <h3 className="header__title">Techstacks</h3>
