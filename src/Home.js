@@ -1,7 +1,5 @@
 import React from 'react';
-import { IonHeader, IonContent } from '@ionic/react';
-import { Container, Col, Row } from 'react-bootstrap';
-import Navigation from './components/Navigation'
+import { Row } from 'react-bootstrap';
 
 import Layout from './components/Layout';
 import Phrase from './assets/images/phrase.png';

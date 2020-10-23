@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonHeader, IonContent } from '@ionic/react';
-import { Container, Col, Row, Card, CardColumns } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import Navigation from './Navigation'
 
 export default function Layout({menu, title, children}) {
