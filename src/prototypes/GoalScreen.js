@@ -13,6 +13,14 @@ export default function GoalScreen() {
           <div className="screen__context">
             <h6 className="screen__type">Viewing saving goals</h6>
             <p>Users can check each saving goal's progress with a bar graph and other participants.</p>
+            <dl>
+              <dt className="sub__title">Personal goal</dt>
+              <dd className="sub__context">User can see how much progress he/she has made with a progress bar. And it shows how many day/week/month left </dd>
+            </dl>
+            <dl>
+              <dt className="sub__title">Joint goal</dt>
+              <dd className="sub__context">It has the same functionalities with Personal goal. On top of that, the current user tabs the partner tag, it would show the contribution over the pregress bar.</dd>
+            </dl>
           </div>
           <img src={View} width="340" alt="Viewing saving goals Screen" className="mobile__img" />
         </Row>
@@ -21,12 +29,15 @@ export default function GoalScreen() {
         <Row className="p-3">
           <div className="screen__context">
             <h6 className="screen__type">Setting a saving goal</h6>
-            <p>Users can set up a goal after completing the forms. Each goal can be a private or a joint one.</p>
+            <p>Users can set up a goal after completing the forms. Each goal can be either a personal or a joint one.</p>
             <ol>
-                <li>Choose the purpose of saving</li>
+                <li>
+                  <p>Choose the purpose of saving</p>
+                  <small className="reference">It will be a dropdown menu with a set of certain purpose. If none of them are related, users can choose 'others'.</small>
+                </li>
                 <li>The amount of saving</li>
                 <li>The period of saving</li>
-                <li>If it is a joint saving, users can see their financial partners and choose participants for the saving.</li>
+                <li>If users set the goal jointly, users can see their financial partners and choose participants for the saving.</li>
             </ol>
           </div>
           <img src={Set} width="340" alt="Setting a saving goal Screen" className="mobile__img" />

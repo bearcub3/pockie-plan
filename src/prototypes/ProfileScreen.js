@@ -13,7 +13,10 @@ export default function ProfileScreen() {
             <h6 className="screen__type">Profile Screen</h6>
             <p>This is the main user profile screen which will appear once a user logs in.</p>
             <ul>
-                <li>The Slide Button on the Top-left side is to let users choose whether they want to see the other currency rate based on their main currency</li>
+                <li>
+                  <p>The Slide Button on the Top left side is to let users choose whether they want to see the other currency rate based on their main currency</p>
+                  <p>After an investigation, the live currency conversion service is not available as all of commercial currency API only offer the conversion service with a paid membership. I will just use the average rate for this occasion.</p>
+                </li>
                 <li>Users can see their daily expense and income below their profile image and name</li>
                 <li>Spending Pattern can be interpreted readily by a pie chart during a certain period of time</li>
                 <li>Saving goals can be set</li>
