@@ -12,7 +12,7 @@ export default function FinanceScreen() {
         <Row className="p-3">
           <div className="screen__context">
             <h6 className="screen__type">Weekly State Screen</h6>
-            <p>Users can see their weekly expense, income and saving details. It will be created as an accordion tab.</p>
+            <p>Users can see their weekly expenses, income and savings details. It will be created as an accordion tab.</p>
           </div>
           <img src={Weekly} width="340" alt="Pockie Invite Screen" className="mobile__img" />
         </Row>
@@ -21,7 +21,7 @@ export default function FinanceScreen() {
         <Row className="p-3">
           <div className="screen__context">
             <h6 className="screen__type">Monthly State Screen</h6>
-            <p>Users can check monthly finance state up to 6 months.</p>
+            <p>Users can check their monthly finance state up to 6 months.</p>
           </div>
           <img src={Monthly} width="340" alt="Pockie Invite Screen" className="mobile__img" />
         </Row>

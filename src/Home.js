@@ -16,8 +16,8 @@ export default function Home() {
                 up with their expenses and to help them to maintain a
                 healthier financial state. Pockie gives users more
                 control over their money as the app provides services
-                such as, analyzing their spending habits and their usual
-                consumption patterns. It also keeps track of their daily
+                such as, analyzing their spending habits(data visualisation) and their usual
+                consumption patterns. It also allows users to keep track of their 
                 expenses, so they can be more reflective and self-manage
                 their financial state.
             </p>
@@ -25,17 +25,13 @@ export default function Home() {
                 Furthermore, Pockie enables users to achieve a goal or
                 multiple goals with others and to have more transparent
                 money management amongst other users, such as a partner,
-                parents or colleagues, simply by inviting them over.
-                This means that Pockie is not only a personal app but
-                also, it can provide a bookkeeping service for a small
-                business or organisation to keep financial transparency
-                amongst shareholders.
+                parents, simply by inviting them over.
             </p>
             <p>
                 As we live in a modern society promoting consumer
-                culture, we often neglect our money management. <b>As your
-                money matters to you, how you spend it and keeping under
-                control is crucial.</b>
+                culture, we often neglect our money management. As your
+                money matters to you, how you spend it and keeping it under
+                control is crucial.
             </p>
         </Row>
     </Layout>

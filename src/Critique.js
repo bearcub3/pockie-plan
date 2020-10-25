@@ -17,8 +17,8 @@ export default function Critique() {
             <Row className="p-3">
                 <h5 className="font-weight-bold">Target Audience</h5>
                 <section>
-                    As the app can be used by anyone who wishes to have better finance management personally, There is no restriction, such as age, sex or occupation. 
-                    The app could support multiple currencies and it aims for the global market.
+                    As the app can be used by anyone who wishes to have better finance management personally, there is no restriction, such as age, gender or occupation. 
+                    The app could potentially support multiple currencies and it is aimed at the global market.
                 </section>
             </Row>
             <Row className="p-3">
@@ -27,24 +27,25 @@ export default function Critique() {
                     <p>Once I open the application after the signup and creating a wallet, it starts with the screen that I was on when I last used the app.
                     I believe this was intentional from both engineering and ux perspectives. 
                     Most mobile applications take some time to load and they appear to have each splash screen.
-                    My speculation is that the spendee may have aimed to give quicker access to its users in order to quickly update their new finance expenditure or income as a longer loading time could put a strain on usability.</p>
+                    My speculation is that Spendee may have aimed to give quicker access to its users in order to quickly update their new finance expenditure or income as a longer loading time could put a strain on usability.</p>
                     <small>I noticed that a splash screen appears at the first loading of each day.</small>
                 </section>
             </Row>
             <Row className="p-3">
                 <h5 className="font-weight-bold">Home Screen</h5>
                 <section>
-                    <p>Multiple wallets can be created from the Home screen per user.
+                    <p>Multiple wallets per user can be created from the Home screen.
                     They may have started like Pockie and as time went by, they may have added multiple wallet features.
                     This is worth quantitive research to find out what other people would think about the feature.
-                    From my perspective, as this is a personal app, having multiple wallets seems to be unmanageable and cumbersome for users.</p>
+                    From my perspective, as this is a personal app, having multiple wallets could be seen unmanageable and cumbersome for users.
+                    </p>
                     <p>
-                    As customers would be able to check their accounts with mobile banking apps these days, I am not convinced that the main purpose of the finance app is to try to take over those.
+                    As customers are able to check their accounts with mobile banking apps these days, I am not convinced that the main purpose of the finance app is to try to take over from those.
                     Having multiple wallets may be seen as a good feature, but, it seems to be an inordinate feature and I would consider the re-evaluation of it.
-                    Pockie provides personal/joint options for users instead. So, If users want to keep a certain type of expenditure for a personal use, it won't be shared.
+                    Pockie provides personal/joint options for users instead.
                     </p>
                     <p>Spendee is an app to provide an one-way finance system so that users can instantly check their whole financial state as a single source.
-                    But, it tries to carry out multiple purposes for users, I feel it's too bulky and complex, and is quite distracting.</p>
+                    But, as it tries to carry out multiple purposes for users, I feel it's too bulky and complex, and is quite distracting.</p>
                     <div className="container">
                         <div class="row justify-content-center">
                             <p className="col-8">
@@ -94,6 +95,7 @@ export default function Critique() {
                 <h5 className="font-weight-bold">Overview</h5>
                 <section>
                     <p>This is an overview of the wallet. Spendee also has used data visualisation to show users' data in a more intuitive manner.</p>
+                    <p>A Calendar icon is on the top right side corner and when it's touched, users can change the period option to weekly, monthly or yearly.</p>
                     <div className="container">
                         <div class="row justify-content-center">
                             <p className="col-8">
@@ -101,6 +103,13 @@ export default function Critique() {
                             </p>
                         </div>
                     </div>
+                </section>
+            </Row>
+            <Row className="p-3">
+                <h5 className="font-weight-bold">Key takeaways</h5>
+                <section>
+                    <p>As most people use mobile/internet banking these days, Spendee's feature which lets users have multiple wallets based on their number of accounts seems to be rather complex and a repeated process.</p>
+                    <p>After I tried out Spendee for a while, it convinced me to deliver a foolproof and centralized financial app.</p>
                 </section>
             </Row>
         </Layout>
