@@ -10,6 +10,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>React Native</Card.Header>
                     <Card.Body>
+                        <p>competency : 4 out of 5</p>
                         <p>
                         React is a great and popular JS library for creating UI components and its features can even be used for native applications
                         </p>
@@ -18,6 +19,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>Expo</Card.Header>
                     <Card.Body>
+                        <p>competency : 3.5 out of 5</p>
                         <p>
                         Expo is a great framework for react native using Metro JS bundler to build both Android and iOS Native Applications.
                         </p>
@@ -26,6 +28,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>Redux</Card.Header>
                     <Card.Body>
+                        <p>competency : 3 out of 5</p>
                         <p>
                         Redux is used as a state management library as Pockie will deal with a variety of financial data. Having a single source of truth would be more ideal to keep each component more legible and maintainable by applying the design principle, SoC.
                         </p>
@@ -34,6 +37,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>React Native SVG Charts</Card.Header>
                     <Card.Body>
+                        <p>competency : 3 out of 5</p>
                         <p>
                         A simple JS library to implement data visualisation based on users' data.
                         </p>
@@ -42,6 +46,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>PostgreSQL</Card.Header>
                     <Card.Body className="flex">
+                        <p>competency : 2 out of 5</p>
                         <p>
                         As you can see in the image below, so far there will be 5 relational database tables. 
                         Each Income, Expense and Goal table is connected to User table with each user's unique ID. 
@@ -107,6 +112,7 @@ export default function Techstacks() {
                 <Card>
                     <Card.Header>Flask</Card.Header>
                     <Card.Body>
+                        <p>competency : 2 out of 5</p>
                         <p>
                         APIs will be created with Flask to communicate with the database server.
                         As Flask doesn't have many boilerplates, it is very light and easy to configure. 
