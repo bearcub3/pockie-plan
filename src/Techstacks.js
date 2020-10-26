@@ -11,7 +11,7 @@ export default function Techstacks() {
                     <Card.Header>React Native</Card.Header>
                     <Card.Body>
                         <p>
-                        React is a great and the most popular JS library for creating UI components and its features can be used even for native applications
+                        React is a great and popular JS library for creating UI components and its features can even be used for native applications
                         </p>
                     </Card.Body>
                 </Card>
@@ -19,7 +19,7 @@ export default function Techstacks() {
                     <Card.Header>Expo</Card.Header>
                     <Card.Body>
                         <p>
-                        Expo is a great framework for react native using Metro JS bundler to build both of Android and iOS Native Application.
+                        Expo is a great framework for react native using Metro JS bundler to build both Android and iOS Native Applications.
                         </p>
                     </Card.Body>
                 </Card>
@@ -27,7 +27,7 @@ export default function Techstacks() {
                     <Card.Header>Redux</Card.Header>
                     <Card.Body>
                         <p>
-                        A state management library as Pockie will deal with a variety of financial data, having a single source of truth would be more ideal to keep each component more legible and maintainable by applying the design principle, SoC.
+                        Redux is used as a state management library as Pockie will deal with a variety of financial data. Having a single source of truth would be more ideal to keep each component more legible and maintainable by applying the design principle, SoC.
                         </p>
                     </Card.Body>
                 </Card>
@@ -43,8 +43,8 @@ export default function Techstacks() {
                     <Card.Header>PostgreSQL</Card.Header>
                     <Card.Body className="flex">
                         <p>
-                        As you can see the image below, so far there will be 5 relational database table. 
-                        Each Income, Expense, Goal table are connected to User table with each user's unique ID. 
+                        As you can see in the image below, so far there will be 5 relational database tables. 
+                        Each Income, Expense and Goal table is connected to User table with each user's unique ID. 
                         </p>
                         <p>
                             <img src={Database} width="260" alt="pockie database" />

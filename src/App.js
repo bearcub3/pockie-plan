@@ -11,6 +11,8 @@ import RecordScreen from './prototypes/RecordScreen'
 import InviteScreen from './prototypes/InviteScreen'
 import FinanceScreen from './prototypes/FinanceScreen'
 import GoalScreen from './prototypes/GoalScreen'
+import Personas from './Personas'
+import Critique from './Critique'
 
 export default function App() {
   return (
@@ -19,12 +21,14 @@ export default function App() {
         <IonRouterOutlet>
             <Route path="/" exact component={Home} />
             <Route path="/goals" component={Goals} /> 
+            <Route path="/personas" component={Personas} />
             <Route path="/prototype/entries" component={InitialScreen} /> 
             <Route path="/prototype/profile" component={ProfileScreen} /> 
             <Route path="/prototype/record" component={RecordScreen} /> 
             <Route path="/prototype/invite" component={InviteScreen} /> 
             <Route path="/prototype/finance" component={FinanceScreen} /> 
             <Route path="/prototype/goal" component={GoalScreen} /> 
+            <Route path="/critique" component={Critique} />
             <Route path="/techstacks" component={Techstacks} />
           </IonRouterOutlet>
       </IonReactRouter>

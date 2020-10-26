@@ -15,44 +15,41 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-                <Link to="/goals">Goal Of The Final app</Link>
-                <Link to="/critique">Personas</Link>
+                <Nav.Link>
+                    <Link to="/goals">Goal Of The Final app</Link>
+                </Nav.Link>
+                <Nav.Link>
+                    <Link to="/personas">Personas</Link>
+                </Nav.Link>
                 <NavDropdown title="Prototype" id="nav-dropdown">
                     <NavDropdown.Item eventKey="3.1">
                         <Link to="/prototype/entries">Entries</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="3.2">
                         <Link to="/prototype/profile">Profile</Link>
-    
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="3.3">
-                 
-                            <Link to="/prototype/record">Daily Record</Link>
-    
+                        <Link to="/prototype/record">Daily Record</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="3.4">
-                 
-                            <Link to="/prototype/invite">User Partnership</Link>
-    
+                        <Link to="/prototype/invite">User Partnership</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="3.5">
-                 
-                            <Link to="/prototype/finance">User Finance State</Link>
-    
+                        <Link to="/prototype/finance">User Finance State</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="3.5">
-                 
-                            <Link to="/prototype/goal">User Saving Goals</Link>
-    
+                        <Link to="/prototype/goal">User Saving Goals</Link>
                     </NavDropdown.Item>
                 </NavDropdown>
-         
+                <Nav.Link>
                     <Link to="/critique">Critique</Link>
-         
-                    <Link to="/techstacks">Techstacks</Link>  
-              </Nav>
-          </Navbar.Collapse>
-      </Navbar>
+                </Nav.Link>
+                <Nav.Link>
+                    <Link to="/techstacks">Techstacks</Link>
+                </Nav.Link>  
+            </Nav>
+        </Navbar.Collapse>
+    </Navbar>
     );
 }
 
